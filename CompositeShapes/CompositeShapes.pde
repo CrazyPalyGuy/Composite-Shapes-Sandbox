@@ -18,3 +18,5 @@ circleDiameter = height; //smallest dimension
 //Canvas
 rect(rectX, rectY, rectWidth, rectHeight);
 ellipse(circleX, circleY, circleDiameter, circleDiameter);
+circle(200, 250, 45);
+circle(460, 250, 45);
