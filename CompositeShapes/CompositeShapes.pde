@@ -38,7 +38,9 @@ void setup() {
   mouthX2 = rightEyeX;
   mouthY2 = mouthY1;
   mouthThick = 15;
-  reset = 1;
+  reset = 10;
+  ellipse(faceX, faceY, faceDiameter, faceDiameter);
+
   //
 }//End setup()
 //
@@ -49,8 +51,6 @@ void draw() {
   measleDiameter = random(displayWidth*1/30, displayWidth*1/10);
   //
   //Canvas
-  rect(rectX, rectY, rectWidth, rectHeight);
-  ellipse(faceX, faceY, faceDiameter, faceDiameter);
   ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
   ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter);
   triangle(noseX1, noseY1, noseX2, noseY2, noseX3, noseY3);
